@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,
+    viewport-fit=cover">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Parcellian Figures</title>
+    <script defer type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script defer type="text/javascript" src="js/script.js"></script>
+    <script defer type="text/javascript" src="js/script_translate_letters.js"></script>
+</head>
+<body>
+    <header>
+        <div class="social-bar">
+            <div class="authorise">
+                <form action="" method="">
+                    <label for="but-auth">Вход</label>
+                    <input type="text" id="but-auth">
+                </form>
+            </div>
+            <div class="search-product-bar">
+                <form action="#" method="#" class="find">
+                    <input type="search" id="search-bar" placeholder="Поиск">
+                    <input type="button" value="Найти">
+                </form>
+            </div>
+            <div class="soc-net">
+                <figure class="vk">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 352 323.9" style="enable-background:new 0 0 352 323.9;" xml:space="preserve" height="20px">
+                        <use xlink:href="img/vk.svg#vk"></use>
+                    </svg>
+                </figure>
+                <figure class="instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
+	 xml:space="preserve">
+                        <use xlink:href="img/instagram-logo.svg#inst"></use>
+                    </svg>
+                </figure>
+                <figure class="whats-up">
+                    <!--<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 127 83" style="enable-background:new 0 0 127 83;" xml:space="preserve" height="50px" width="50px">
+                        <use xlink:href="img/whatsup.svg#wup"></use>
+                    </svg>-->
+                    <img src="img/whatsapp1.svg" >
+                </figure>
+            </div>
+
+        </div>
+
+            <div class="bottom-bar">
+            <div id="result"></div>
+            <div class="basket-bar">
+                <div class="round"> <span>2</span></div>
+                <div class="basket">
+                    <span>100p</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35px" height="18px" viewBox="0 0 59 64">
+                        <use xlink:href="img/shopping_cart.svg#shop"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="nav-bar">
+            <aside>
+                <ul>
+                    <li>
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="fill:rgb(65 105 225);width:35px;height:35px;" xml:space="preserve">
+                                <use xlink:href="img/newsletter.svg#newsletter"></use>
+                            </svg>
+                            <figcaption>Новости</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612.003 612.003" style="fill:rgb(65 105 225);width: 35px;height:35px;" xml:space="preserve" >
+                                <use xlink:href="img/new.svg#new"></use>
+                            </svg>
+                            <figcaption>Новые поступления</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;fill:rgb(65 105 225);width: 35px;height:35px;" xml:space="preserve">
+                                <use xlink:href="img/best.svg#best"></use>
+                            </svg>
+                            <figcaption>Бест селлеры</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;fill:rgb(65 105 225);width: 35px;height:35px;" xml:space="preserve">
+                                <use xlink:href="img/order_home1.svg#order_home1"></use>
+                            </svg>
+                            <figcaption>Заказать фигурку домой</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </aside>
+            <div class="sale-slider">
+                <div class="slider">
+                    <figure>
+                        <img src="img/figures/image1.JPG" height="300px">
+                        <figcaption>
+                            Мальчик с чемоданом
+                        </figcaption>
+                    </figure>
+                    <input type="button" value="Купи меня">
+                </div>
+            </div>
+        </div>
+
+        <div class="items">
+            <h2>Категории</h2>
+            <div class="items-choice">
+                <div class="category">
+                    <form action="#" method="#">
+                        <input type="checkbox" value="1" id="bal" >
+                        <label for="1">Балерина</label>
+                    </form>
+                    <form action="#" method="#">
+                        <input type="checkbox" value="2" id="cat" checked>
+                        <label for="2">cat</label>
+                    </form>
+                    <form action="#" method="#">
+                        <input type="checkbox" value="3" id="dogs">
+                        <label for="3">car</label>
+                    </form>
+                    <form action="#" method="#">
+                        <input type="checkbox" value="4" id="wc">
+                        <label for="4">wc</label>
+                    </form>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img src="img/cat.jpg" width="200px" height="200px" id="bal">
+                        <figcaption>
+                            Балерина
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/figures/dog.jpg" width="200px" height="200px" id="cat">
+                        <figcaption>
+                            cat
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/figures/11.jpg" width="200px" height="200px" id="dogs">
+                        <figcaption>
+                            car
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+                <img src="img/cat.jpg" width="50px" height="50px" style="display: none;">
+                <img src="img/car.png" width="50px" height="50px" style="display: none;">
+                <img src="img/wc.jpg" width="50px" height="50px" style="display: none;">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

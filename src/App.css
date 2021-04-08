@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.header {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1440px;
+    justify-items: center;
+    background-color: white;
+    margin: 0 auto;
+    align-items: center;
+   
+    font-family: 'Courier New';
+}
+.header__favorites {
+    justify-self: center;
+}
+.header__favorites svg{
+    width: 25px;
+    height: 25px;
+    fill: black;
+}
+.header__loginForm figure svg{
+    width: 20px;
+    height: 20px;
+}
+.header__loginForm {
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+.header__loginForm a {
+    color: black;
+    text-decoration: none;
+}
+.header__info__general ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    color: black;
+    margin:0;
+}
+.header__info__general ul li{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.header__shoppingCart svg {
+    width: 25px;
+    height: 25px;
+    fill: black;
+}
+.header__socialBar {
+    display: grid;
+    grid-template-columns: repeat(3,60px);
+   justify-content: center;
+}
+.header__logo svg{
+    width:155px;
+    height: 55px;    
+}
+.header__logo h1 {
+    font-family: 'Anton', sans-serif;
+}
+/*Main*/
+.mainContent {
+    font-family: 'Courier New';
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.mainContent__nav {
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    justify-content: center;
+    align-items: center;
+}
+.mainContent__nav li{
+    list-style: none;
+}
+.mainContent__nav li a{ 
+    text-decoration: none;
+}
+.mainContent__navBar {
+    display: grid;
+    grid-template-columns: 840px 600px;
+    justify-items: center;
+    align-items: center;
+}
+.mainContent__navBar form{
+    padding-left: 195px;
+    position: relative;
+}
+.mainContent__navBar form button {
+    border: none;
+    background: white;
+    position: absolute;
+    top: -3px;
+    left: 165px;
+}
+.mainContent__navBar form input {
+    border: none;
+    border-bottom: 1px solid;   
+    width: 57%;
+}
+    
+.mainContent__nav__svg {
+    width: 20px;
+    height: 20px;
+}
+.carousel {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.carouselImg {
+  max-width: 740px;
+  height: 700px;
+}
+.carousel figure {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.carousel__description {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(5,20px);
+    align-content: center;   
+    background-color: #f8f4eb;
+}
+.carousel__descriptionBrand {
+    font-family: 'Courier New Bold';
+    font-weight: bold;
+    font-size: 20px;
+}
+.carousel__descriptionNew {
+    color: chocolate;
+}
+.mainContent__container__items__options {
+    display: grid;
+    grid-template-columns:  repeat(5,220px);
+    justify-content: center;
+    margin: 0 auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.mainContent__container__items__options button {
+    border: 2px solid #f8f4eb;
+    background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContent__container__items__options button figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin:0;
+    height: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainContent__container__items__options button figure svg {
+    width: 20px;
+    justify-self: end;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainContent__container__items {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.mainContent__container__items__row {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 43px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainContent__container__items__item {
+    border: 1px solid black;
+    width: 250px;
+    height:350px;
+    font-family: 'Courier New';
+}
+.mainContent__container__items__item figure {
+    margin: 0;
+}
+.mainContent__container__items__item img {
+    width: 250px;
+    height: 310px;
+}
+.mainContent__container__items__item figure figcaption {
+    background-color: #f8f4eb;
+    margin-top: -5px;
+    height: 40px;
+}
+/*FOOTER*/
+.footer {    
+    background-color:#f8f4eb;
+    min-height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer ul {
+    list-style: none;
+    padding:0 ;
+}
+.footer__payment ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer__social ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer__social ul li {
+    width: 22px;
+    height: 21px;
 }
