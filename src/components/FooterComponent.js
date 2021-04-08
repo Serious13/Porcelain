@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+library.add(fab)
 
 class Footer extends Component {
     constructor(props) {
@@ -13,29 +15,25 @@ class Footer extends Component {
         return(
             <React.Fragment>
                 <div className="footer">
+                    <h3>Copyright © 2021 Arseniy</h3>
                    <div className="footer__social">
-                       <h2>Get in touch</h2>
+                       <h3>Get in touch</h3>
                         <ul>
-                            <li><img src="assets/instagram.png" alt="instagram"/></li>
-                            <li><FontAwesomeIcon icon="coffee" /></li>
-                            <li><svg><use href={"assets/twitter.svg#twitter"}></use></svg></li>
-                            <li><svg><use href={"assets/facebook.svg#facebook"}></use></svg></li>
+                            <li><FontAwesomeIcon icon={['fab', 'facebook']} id = "facebook"/></li>                            
+                            <li><FontAwesomeIcon icon={['fab', 'twitter']} id = "twitter"/></li>
+                            <li><FontAwesomeIcon icon={['fab', 'youtube']} id = "youtube"/></li>
                         </ul>
-                   </div>
-                   <div className="footer__impressum">
-
-                   </div>
-                   <div className="footer__datenschutz">
-
                    </div>
                    <div className="footer__payment">
-                       <h2>Bezahlen</h2>
+                       <h3>Bezahlen</h3>
                         <ul>
-                            <li>Card</li>
-                            <li>Paypal</li>
-                            <li>BTC</li>
+                            <li><FontAwesomeIcon icon={['fab', 'cc-mastercard']} id = "mastercard"/></li>
+                            <li><FontAwesomeIcon icon={['fab', 'cc-visa']} id = "visa" /></li>
+                            <li><FontAwesomeIcon icon={['fab', 'cc-paypal']} id = "paypal"/></li>
+                            <li><FontAwesomeIcon icon={['fab', 'bitcoin']} id = "bitcoin"/></li>
                         </ul>
                    </div>
+                  
                 </div>
             </React.Fragment>
         )

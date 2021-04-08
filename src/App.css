@@ -191,27 +191,72 @@
 /*FOOTER*/
 .footer {    
     background-color:#f8f4eb;
-    min-height: 100px;
+    height: 20px;
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 20px;
-    padding: 10px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,300px);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+.footer__social {
+    display: grid;
+    grid-template-columns: repeat(2,110px);
 }
 .footer ul {
     list-style: none;
-    padding:0 ;
+    padding:0;
+    margin:0;
+}
+.footer h3 {
+    margin: 0px;
+    font-size: 14px;
+}
+.footer__payment {
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+}
+.footer__payment h2 {
+    margin-left: -20px;
 }
 .footer__payment ul {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,58px);
 }
+
 .footer__social ul {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,58px);
+    justify-items: center;
+    
 }
-.footer__social ul li {
-    width: 22px;
-    height: 21px;
+.footer__lieferung {
+    display: grid;
+    grid-template-columns: repeat(2,100px);
 }
+.footer__lieferung h2 {
+    text-align: center;
+    max-width: 163px;
+}
+.footer__lieferung__service {
+    display: grid;
+    grid-template-columns: repeat(3,58px);
+    font-weight: bold;
+    font-size: 18px;
+}
+#twitter, #instagram, #youtube, #facebook, #mastercard, #paypal, #visa, #bitcoin {
+    font-size: 20px; 
+}
+
+.footer__address {
+    display: grid;
+    grid-template-rows: 40px 40px;
+    align-items: center;
+}
+.footer__address h2{
+    text-align: center;
+}
+
