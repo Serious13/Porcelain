@@ -14,8 +14,8 @@ class Main extends Component {
         return(
             <BrowserRouter>
                 <Switch>
-                    <Route path = "/home" component = {Home} />
-                    <Redirect to="/home" />
+                    <Route exact path = "/home" component = {Home}/>
+                    <Redirect to="/home"/>
                 </Switch>                
             </BrowserRouter>
         )
