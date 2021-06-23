@@ -16,8 +16,8 @@ class Main extends Component {
                 <Switch>
                     <Route exact path = "/home" component = {Home}/>
                     <Redirect to="/home"/>
-                </Switch>                
-            </BrowserRouter>
+                </Switch>  
+            </BrowserRouter>                              
         )
     }
 }
