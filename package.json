@@ -2,7 +2,7 @@
   "name": "porcelain",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Serious13/Porcelain.git",
+  "homepage":"https://Serious13.github.com/Porcelain",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -46,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^3.2.3", 
     "node-sass": "^5.0.0"
   }
 }
