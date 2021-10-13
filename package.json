@@ -4,11 +4,10 @@
   "private": true,
   "homepage": "https://Serious13.github.io/Porcelain",
   "dependencies": {
+    "'": "github:fortawesome/react-fontawesome",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -25,6 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -46,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3", 
+    "gh-pages": "^3.2.3",
     "node-sass": "^5.0.0"
   }
 }

@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
+import teapot from "./assets/teapot.png";
+import swan from "./assets/figures/figur2.jpg";
+import elephant from "./assets/figures/figur1.jpg";
+import horse from "./assets/figures/figur3.jpg";
+import bride from "./assets/figures/figur4.jpg";
+import forest from "./assets/figures/figur5.jpg";
+import dance from "./assets/figures/figur6.jpg";
+import figur7 from "./assets/figures/figur7.jpg";
 
 class Home extends Component{
     constructor(props) {
@@ -21,7 +29,7 @@ class Home extends Component{
                     </ul>
                     <form method="post">
                         <button> 
-                            <svg className="mainContent__nav__svg"><use href={"assets/search.svg#search"}></use></svg>
+                            <svg className="mainContent__nav__svg"><use href={"./assets/search.svg#search"}></use></svg>
                         </button> 
                         <input type="text" name="searchLabel" placeholder="Searching"/>                      
                     </form>
@@ -35,7 +43,7 @@ class Home extends Component{
                                 <span className="carousel__descriptionNew">New</span>                                                           
                             </div>
                         </figcaption>
-                        <img className="carouselImg" src={"assets/figures/geschirrSet1.jpg"} alt="luts"/>                        
+                        <img className="carouselImg" src={"./assets/figures/geschirrSet1.jpg"} alt="luts"/>                        
                     </figure>                      
                     <figure>
                         <figcaption>
@@ -94,7 +102,7 @@ class Home extends Component{
                         <div className="mainContent__container__items__row">
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                    <img src="assets/figures/figur1.jpg" alt="scsd"/>
+                                    <img src={elephant} alt="elephant"/>
                                     <figcaption>
                                         <div>Luis</div>
                                         <div>189€</div>
@@ -103,7 +111,7 @@ class Home extends Component{
                             </div>
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                    <img src="assets/figures/figur2.JPG" alt="scsd"/>
+                                    <img src = {swan} alt="swan"/>
                                     <figcaption>
                                         <div>Axaio</div>
                                         <div>19€</div>
@@ -112,7 +120,7 @@ class Home extends Component{
                             </div>
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                <img src="assets/figures/figur3.JPG" alt="scsd"/>
+                                <img src={horse} alt="horse"/>
                                     <figcaption>
                                         <div>Vend</div>
                                         <div>75€</div>
@@ -121,7 +129,7 @@ class Home extends Component{
                             </div>
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                    <img src="assets/figures/figur4.JPG" alt="scsd"/>
+                                    <img src={bride} alt="bride"/>
                                     <figcaption>
                                         <div>Cartl</div>
                                         <div>229€</div>
@@ -132,7 +140,7 @@ class Home extends Component{
                         <div className="mainContent__container__items__row">
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                <img src="assets/figures/figur5.JPG" alt="scsd"/>
+                                <img src={forest} alt="forest"/>
                                     <figcaption>
                                         <div>Jokart</div>
                                         <div>43€</div>
@@ -141,7 +149,7 @@ class Home extends Component{
                             </div>
                             <div className = "mainContent__container__items__item">
                                 <figure>
-                                <img src="assets/figures/figur6.JPG" alt="scsd"/>
+                                <img src={dance} alt="dance"/>
                                     <figcaption>
                                         <div>Portoj</div>
                                         <div>189€</div>
