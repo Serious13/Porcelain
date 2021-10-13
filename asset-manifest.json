@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3024d28.chunk.css",
-    "main.js": "/static/js/main.490d33ca.chunk.js",
-    "main.js.map": "/static/js/main.490d33ca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.eac5ea4d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.eac5ea4d.js.map",
-    "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
-    "static/js/2.4007660d.chunk.js": "/static/js/2.4007660d.chunk.js",
-    "static/js/2.4007660d.chunk.js.map": "/static/js/2.4007660d.chunk.js.map",
-    "static/js/3.f6d19c34.chunk.js": "/static/js/3.f6d19c34.chunk.js",
-    "static/js/3.f6d19c34.chunk.js.map": "/static/js/3.f6d19c34.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4ce9e501.chunk.css.map": "/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.d3024d28.chunk.css.map": "/static/css/main.d3024d28.chunk.css.map",
-    "static/js/2.4007660d.chunk.js.LICENSE.txt": "/static/js/2.4007660d.chunk.js.LICENSE.txt"
+    "main.css": "/Porcelain/static/css/main.d3024d28.chunk.css",
+    "main.js": "/Porcelain/static/js/main.9bbcf953.chunk.js",
+    "main.js.map": "/Porcelain/static/js/main.9bbcf953.chunk.js.map",
+    "runtime-main.js": "/Porcelain/static/js/runtime-main.a87ffc15.js",
+    "runtime-main.js.map": "/Porcelain/static/js/runtime-main.a87ffc15.js.map",
+    "static/css/2.4ce9e501.chunk.css": "/Porcelain/static/css/2.4ce9e501.chunk.css",
+    "static/js/2.af5d8f3f.chunk.js": "/Porcelain/static/js/2.af5d8f3f.chunk.js",
+    "static/js/2.af5d8f3f.chunk.js.map": "/Porcelain/static/js/2.af5d8f3f.chunk.js.map",
+    "static/js/3.f6d19c34.chunk.js": "/Porcelain/static/js/3.f6d19c34.chunk.js",
+    "static/js/3.f6d19c34.chunk.js.map": "/Porcelain/static/js/3.f6d19c34.chunk.js.map",
+    "index.html": "/Porcelain/index.html",
+    "static/css/2.4ce9e501.chunk.css.map": "/Porcelain/static/css/2.4ce9e501.chunk.css.map",
+    "static/css/main.d3024d28.chunk.css.map": "/Porcelain/static/css/main.d3024d28.chunk.css.map",
+    "static/js/2.af5d8f3f.chunk.js.LICENSE.txt": "/Porcelain/static/js/2.af5d8f3f.chunk.js.LICENSE.txt",
+    "static/media/figur1.b87314cd.jpg": "/Porcelain/static/media/figur1.b87314cd.jpg",
+    "static/media/figur2.c9514334.jpg": "/Porcelain/static/media/figur2.c9514334.jpg",
+    "static/media/figur3.5919498d.jpg": "/Porcelain/static/media/figur3.5919498d.jpg",
+    "static/media/figur4.701a7321.jpg": "/Porcelain/static/media/figur4.701a7321.jpg",
+    "static/media/figur5.6abc2d90.jpg": "/Porcelain/static/media/figur5.6abc2d90.jpg",
+    "static/media/figur6.d9f28b73.jpg": "/Porcelain/static/media/figur6.d9f28b73.jpg",
+    "static/media/figur7.59661fce.jpg": "/Porcelain/static/media/figur7.59661fce.jpg",
+    "static/media/teapot.b943aeac.png": "/Porcelain/static/media/teapot.b943aeac.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eac5ea4d.js",
+    "static/js/runtime-main.a87ffc15.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.4007660d.chunk.js",
+    "static/js/2.af5d8f3f.chunk.js",
     "static/css/main.d3024d28.chunk.css",
-    "static/js/main.490d33ca.chunk.js"
+    "static/js/main.9bbcf953.chunk.js"
   ]
 }
